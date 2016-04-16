@@ -13,11 +13,18 @@ Burger Button for responsive menu
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 ```
 
-##### Include plugin's code:
+##### Include html:
 
 ```html
+	<link rel="stylesheet" type="text/css" href="/css/animate.css" />
 	<link rel="stylesheet" type="text/css" href="/css/hmbrgr.min.css" />
 	<script src="/js/jquery.hmbrgr.min.js"></script>
+```
+
+##### Or Sass:
+```css
+	@import url(../css/animate.css);
+	@import url(../css/hmbrgr.min.css);
 ```
 
 ##### In your main.js:
@@ -40,23 +47,23 @@ Burger Button for responsive menu
 
 ## For WP
 
-### Add to WP functions.php:
+#### Add to WP functions.php:
 
 ```php
 /* include styles */
-wp_register_style( 'animateStyles', get_stylesheet_directory_uri() . '/css/animate.css' );
-wp_register_style( 'hmbrgrStyles', get_stylesheet_directory_uri() . '/css/hmbrgr.min.css' );
+	wp_register_style( 'animateStyles', get_stylesheet_directory_uri() . '/css/animate.css' );
+	wp_register_style( 'hmbrgrStyles', get_stylesheet_directory_uri() . '/css/hmbrgr.min.css' );
 
-/* include scripts */
-wp_register_script( 'hmbrgrScripts', get_stylesheet_directory_uri() . '/js/jquery.hmbrgr.min.js', array('jquery') );
+	/* include scripts */
+	wp_register_script( 'hmbrgrScripts', get_stylesheet_directory_uri() . '/js/jquery.hmbrgr.min.js', array('jquery') );
 
-wp_enqueue_style( 'animateStyles' );
-wp_enqueue_style( 'hmbrgrStyles' );
+	wp_enqueue_style( 'animateStyles' );
+	wp_enqueue_style( 'hmbrgrStyles' );
 
-wp_enqueue_script( 'hmbrgrScripts' );
+	wp_enqueue_script( 'hmbrgrScripts' );
 ```
 
-### Add WP Menu structure
+#### Add WP Menu structure
 
 ```php
 wp_nav_menu(
