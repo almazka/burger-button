@@ -1,4 +1,4 @@
-### This is a jquery hamburger button library from Moreno Di Domenico v0.0.2 which earlier located on https://github.com/MorenoDiDomenico/jquery-hmbrgr
+### This is a jquery hamburger button library from Moreno Di Domenico v0.0.2 which earlier located on <a href="https://github.com/MorenoDiDomenico/jquery-hmbrgr" target="_blank">https://github.com/MorenoDiDomenico/jquery-hmbrgr</a>
 
 # Burger Button
 Burger Button for responsive menu
