@@ -95,4 +95,8 @@ $('.hmbrgr').hmbrgr({
 	onOpen    : function(){},	// optional - callback when the hamburger is opening
 	onClose   : function(){}	// optional - callback when the hamburger is closing
 });
+
+$('.hmbrgr').click(function() {
+	$('#primary-navbar-collapse').stop().slideToggle().toggleClass('animated slideInTop');
+});
 ```
