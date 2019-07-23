@@ -9,7 +9,8 @@ In my opinion - this is a big inconvenience - to use the whole jQuery plugin to 
 The appearance of the mobile menu is still prescribed separately in the js file manually, so I no longer use this plugin and the plug-in files are here as a relic of the old times, for research purposes.
 
 Instead of jQuery for animating a burger button, I use css animation from here - https://jonsuh.com/hamburgers/
-My gist code for that - https://gist.github.com/almazka987/af7ff4cd63ae610bad044c48b4c05009
+
+[See my gist code for that](https://gist.github.com/almazka987/af7ff4cd63ae610bad044c48b4c05009)
 
 ---
 
