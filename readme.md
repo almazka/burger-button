@@ -1,16 +1,6 @@
-__*Attention!*__
+__*Note*__
 
-I do not use this plugin because it has a bug. The bug is that if you repeatedly press the burger button, the animation of the open and closed buttons becomes incorrect.
-This problem is solved by adding the `.stop()` method to the `$('.hmbrgr')` element in the click handler function.
-But here, the click handler for the jQuery element `$('.hmbrgr')` is in the plugin file.
-
-In my opinion - this is a big inconvenience - to use the whole jQuery plugin to animate such a small thing as the movement of a burger button when it pressed.
-
-The appearance of the mobile menu is still prescribed separately in the js file manually, so I no longer use this plugin and the plug-in files are here as a relic of the old times, for research purposes.
-
-Instead of jQuery for animating a burger button, I use css animation from here - https://jonsuh.com/hamburgers/
-
-[See my gist code for that](https://gist.github.com/almazka987/af7ff4cd63ae610bad044c48b4c05009)
+I do not use this plugin, currently I use burbger button with css animation from [here](https://jonsuh.com/hamburgers/) - __[My gist code for that](https://gist.github.com/almazka987/af7ff4cd63ae610bad044c48b4c05009)__
 
 ---
 
